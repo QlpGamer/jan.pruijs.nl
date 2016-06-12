@@ -23,13 +23,14 @@ line-height: 1.0em;
 
 
 .menu {
-	font: bold; 15px Arial;
+	font: bold; 
 	color: red;
 	padding: 1px 1px 1px 1px;
 	font-weight: 900;
 	font-size: 20px;
 	font-family: Courier;
-	margin-top: 10px;
+	margin-bottom: 0px;
+
 }
 
  
@@ -38,10 +39,21 @@ li {
 }
 
 a {
-	color: red;
+	color: black;
 	text-decoration: none;
+	border-style: outset;
+	border-color: black;
+	line-height: 30px;
+	background-color: #006400;
+
 }
 
 a:hover {
-	color: blue;
+	color: #32CD32;
+}
+
+a:active {
+	border-style: inset;
+	background-color: black;
+    
 }
