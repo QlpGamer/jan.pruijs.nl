@@ -1,21 +1,47 @@
 body {
-	background-color: pink;
+	background-color: green;
+	background-position: right middle;
 }
 
+	
 .container {
-	background-color: red;
-	max-width: 800px;
+	background-color: green;
 	align: center;
 	margin: auto;
 }
 
 
-.menu {
-	
-	text-align: right;
+
+
+/* Het menu */
+
+h2 {
+font-family: arial;
+font-size: 50px
+line-height: 1.0em;
 }
 
-.hallo {
 
+.menu {
+	font: bold; 15px Arial;
+	color: red;
+	padding: 1px 1px 1px 1px;
+	font-weight: 900;
+	font-size: 20px;
+	font-family: Courier;
+	margin-top: 10px;
+}
 
+ 
+li {
+    margin: -200px 10;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
 }
