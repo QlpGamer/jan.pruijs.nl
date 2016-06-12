@@ -30,9 +30,7 @@ line-height: 1.0em;
 	font-size: 20px;
 	font-family: Courier;
 	margin-bottom: 0px;
-
 }
-
  
 li {
     margin: -200px 10;
@@ -45,7 +43,6 @@ a {
 	border-color: black;
 	line-height: 30px;
 	background-color: #006400;
-
 }
 
 a:hover {
