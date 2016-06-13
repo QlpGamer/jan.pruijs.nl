@@ -24,24 +24,41 @@ line-height: 1.0em;
 
 .menu {
 	font: bold; 
-	color: red;
-	padding: 1px 1px 1px 1px;
-	font-weight: 900;
-	font-size: 20px;
-	font-family: Courier;
-	margin-bottom: 0px;
+		color: black;
+			padding: 1px 1px 1px 1px;
+				font-weight: 100;
+					font-size: 30px;
+						font-family: Courier;
+					margin-bottom: 0px;
+				border-style: solid;
+    		border-width: 10px;
+    	border-color: #003200;
+    background-color: #003200;
 }
  
-li {
-    margin: -200px 10;
+
+
+
+ }
+
+
+
+.info {
+	font-size: 20px;
+	border: 3px groove;
+	border-color:  #006400;
+	border-width: 15px;
 }
 
+
+
 a {
+
 	color: black;
 	text-decoration: none;
 	border-style: outset;
 	border-color: black;
-	line-height: 30px;
+	line-height: 40px;
 	background-color: #006400;
 }
 
@@ -54,3 +71,18 @@ a:active {
 	background-color: black;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
