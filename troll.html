@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Troll Jannetje</title>
+	<style>
+		#troll-box {
+			height: 10rem;
+			width: 10rem;
+			background-color: red;
+			transition: 1s height;
+			position: absolute;
+			transition: left 1s;
+			transition: right 1s;
+		}
+
+		#troll-box:hover {
+			background-color: green;
+			border-radius: 1rem;
+			height: 0px;
+		}
+
+
+
+	</style>
+
+
+</head>
+<body>
+	<div id="troll-box">
+		
+	</div>
+
+	<script>
+	var box = document.getElementById('troll-box');
+	
+
+	box.style.left = "0";
+	
+	var count = 0;
+
+	while (true) {
+		++count;
+		box.style.left = count + "px";
+	}
+	</script>
+</body>
+</html>
