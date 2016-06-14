@@ -28,6 +28,7 @@ h2 {
 
 }
 
+
 .menu {
 	font: bold; 
 	color: black;
@@ -37,7 +38,6 @@ h2 {
 	font-family: Courier;
 	margin-bottom: 0px;
 	border-style: solid;
-	border-width: 10px;
 	border-color: #003200;
 	background-color: #003200;
 }
@@ -61,6 +61,7 @@ h2 {
 
 
 
+
 a {
 
 	color: black;
@@ -80,6 +81,17 @@ a:active {
 	background-color: black;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
